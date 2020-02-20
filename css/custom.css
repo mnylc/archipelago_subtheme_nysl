@@ -61,6 +61,8 @@ pre code {
     padding: 0px;
 }
 
+
+
 .navbar-dark .navbar-brand {
     color: #fff;
     font-weight: 100;
@@ -237,6 +239,11 @@ h1.title {
 
 /**home page promo stuff**/
 
+#main-wrapper {
+    padding-bottom: 250px;
+    margin-left: 0;
+}
+
 .promo {
     display: flex;
     width: 100%;
@@ -350,6 +357,17 @@ h1.title {
     .jumbotron p.lead {
         font-size: smaller;
     }
+    .jumbotron .lead-buttons {
+        flex-flow: column;
+    }
+    .jumbotron .lead-buttons .btn-lg {
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+    .promo .jumbotron {
+        width: 95%;
+    }
 }
 
 @media (max-width: 62em) {
@@ -365,6 +383,14 @@ h1.title {
     }
     .jumbotron p.lead {
         font-size: 1.2em;
+    }
+    .jumbotron .lead-buttons .btn-lg {
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+    .promo .jumbotron {
+        width: 95%;
     }
 }
 p.lead-top {
@@ -454,8 +480,10 @@ p.lead-bottom {
 .site-footer {
     position: absolute;
     width: 100%;
-    margin-top: 10px;
-    background-color: #000;
+    background-color: rgb(7,21,8);
+    bottom: 0;
+    height: 250px;
+    padding: 15px 0;
 }
 
 .site-footer .block {
