@@ -54,10 +54,10 @@ body {
 
 a,
 .link {
-    color:rgb(10,140,125);
+    color: rgb(75, 130, 191)
 }
 a{
-    color:rgb(10,140,125);
+    color: rgb(75, 130, 191)
 }
 
 
@@ -65,7 +65,7 @@ a:hover,
 a:focus,
 .link:hover,
 .link:focus {
-    color:rgb(10,140,125);
+    color: rgb(75, 130, 191)
     decoration:none;
 }
 

@@ -25,11 +25,12 @@ h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a {
 pre code {
     display: block;
     padding: 10px;
-    color: #00ff00;
-    background-color: #000;
+    color: #2a384f;
+    background-color: #e4eff2;
     margin-left: 8px;
     width: 1010px;
     overflow: scroll;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     -moz-border-radius: 8px;
     -webkit-border-radius: 8px;
     border-radius: 8px; /* future proofing */
@@ -245,18 +246,48 @@ h1.title {
     background-position: center;
     padding:2%;
     height: inherit;
+    justify-content: center;
 }
 
+.promo .jumbotron .container .row {
+    justify-content: center;
+}
+
+.promo2 {
+    display: flex;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:2%;
+    height: inherit;
+}
 
 .promo .image-credit {
     font-size: xx-small;
-    color: #00995c;
+    color: rgb(109, 207, 246);
     opacity: 0.5;
     flex-flow: row;
     align-self: flex-end;
     margin-top: auto;
     justify-content: flex-start;
     margin-left: auto;
+}
+
+.promo2 .jumbotron a.btn-primary {
+    margin-inline-end:2%;
+    margin-bottom:1%;
+}
+
+.promo2 .jumbotron {
+    margin-top: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgba(255, 255, 255, 0.85);
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 2rem 2rem;
 }
 
 .promo .jumbotron a.btn-primary {
@@ -266,12 +297,24 @@ h1.title {
 
 .promo .jumbotron {
     margin-top: 100px;
-    margin-left: 20%;
-    margin-right: 20%;
-    background-color: rgba(255, 255, 255, 0.5);
+    width:80%;
+    min-width: 10rem;
+    background-color: rgba(255, 255, 255, 0.85);
     text-align: center;
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+#many {
+    background-color: #333640 !important;
+    color:#e9ecef;
+}
+#many .jumbotron {
+    background-color: #333640 !important;
+}
+
+#many .jumbotron .container .row{
+    justify-content: center;
 }
 
 .jumbotron .lead  ul {
@@ -285,8 +328,16 @@ h1.title {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    margin-top: 1rem;
 }
 
+.jumbotron .lead-icons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
 
 @media (max-width: 48em) {
     .jumbotron h1 {
@@ -330,8 +381,8 @@ p.lead-bottom {
 
 .btn-primary,
 .button--primary {
-    background-color: rgb(10, 140, 125);
-    border-color: rgb(10, 140, 125);
+    background-color: rgb(109, 207, 246);
+    border-color: rgb(109, 207, 246);
     color: #fff;
 }
 
@@ -391,11 +442,11 @@ p.lead-bottom {
 }
 
 .block-views-blockld-display-for-digital-objects-sql-block-1 a {
-    color: #00995c;
+    color: rgb(109, 207, 246)
 }
 
 .block-views-blockld-display-for-digital-objects-sql-block-1 a:hover {
-    color: #00cc7a;
+    color: #4b82bf;
 }
 
 /**site footer**/
@@ -492,7 +543,7 @@ p.lead-bottom {
 }
 
 .progress-step.is-active .progress-marker {
-    background-color: rgb(10, 140, 125);
+    background-color: rgb(109, 207, 246)
 }
 
 .webform-progress-tracker .progress-step.is-complete .progress-marker {
@@ -504,7 +555,7 @@ p.lead-bottom {
 }
 
 .webform-progress-tracker .progress-step.is-active:hover .progress-marker {
-    background-color: rgb(10, 140, 125);
+    background-color: rgb(109, 207, 246)
 }
 
 .webform-actions .webform-button--next {
@@ -512,7 +563,7 @@ p.lead-bottom {
 }
 
 .webform-button--submit {
-    background-color: rgb(10, 140, 125);
+    background-color: rgb(109, 207, 246)
 }
 
 .webform-button--preview {
@@ -520,12 +571,12 @@ p.lead-bottom {
 }
 
 .webform-progress .progress-title[role="link"] {
-    color: #00804d;
+    color: rgb(109, 207, 246)
 }
 
 .webform-progress .progress-title[role="link"]:hover, .webform-progress .progress-title[role="link"]:focus {
     text-decoration: underline;
-    color: #00804d;
+    color: rgb(109, 207, 246)
 }
 
 
