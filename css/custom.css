@@ -483,11 +483,14 @@ p.lead-bottom {
     background-color: rgb(7,21,8);
     bottom: 0;
     height: 250px;
-    padding: 15px 0;
+    padding: 2rem 2rem;
 }
 
 .site-footer .block {
     border: none;
+}
+.site-footer .site-footer__bottom {
+    border: none !important;
 }
 
 /**END site footer**/
