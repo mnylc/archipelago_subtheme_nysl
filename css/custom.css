@@ -57,11 +57,9 @@ pre code {
 /**menu and nav styles**/
 
 #navbar-main {
-    border-bottom: 1px solid #e3e3e3;
+    border-bottom: 1px solid #333640;
     padding: 0px;
 }
-
-
 
 .navbar-dark .navbar-brand {
     color: #fff;
@@ -244,13 +242,29 @@ h1.title {
     margin-left: 0;
 }
 
+#main-wrapper.focused-content {
+    background-color: #e9ecef;
+}
+
+.background-front {
+    background-size: cover;
+    background-image: url(../img/front-colour.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.background-irun {
+    background-size: cover;
+    background-image: url(../img/irun-color.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
 .promo {
     display: flex;
     width: 100%;
-    background-size: cover;
-    background-image: url(../img/islands_1.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
     padding:2%;
     height: inherit;
     justify-content: center;
@@ -290,7 +304,7 @@ h1.title {
     margin-top: 100px;
     margin-left: 20%;
     margin-right: 20%;
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: rgba(255, 255, 255, 0.65);
     text-align: center;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -306,7 +320,7 @@ h1.title {
     margin-top: 100px;
     width:80%;
     min-width: 10rem;
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: rgba(255, 255, 255, 0.65);
     text-align: center;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -407,16 +421,16 @@ p.lead-bottom {
 
 .btn-primary,
 .button--primary {
-    background-color: rgb(109, 207, 246);
-    border-color: rgb(109, 207, 246);
+    background-color:rgb(217, 120, 68);
+    border-color: rgb(217, 120, 68);
     color: #fff;
 }
 
 .btn-primary:hover,
 .button--primary:hover {
     color: #000;
-    background-color: #b3ffe0;;
-    border-color: #b3ffe0;;
+    background-color: #b3c6ff;
+    border-color: #b3c6ff;
 }
 
 #strawberryfield h1,

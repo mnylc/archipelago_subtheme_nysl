@@ -65,7 +65,7 @@ a:hover,
 a:focus,
 .link:hover,
 .link:focus {
-    color: rgb(75, 130, 191)
+    color: rgb(75, 130, 191);
     decoration:none;
 }
 
