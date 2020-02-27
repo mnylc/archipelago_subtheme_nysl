@@ -482,7 +482,7 @@ p.lead-bottom {
 }
 
 .block-views-blockld-display-for-digital-objects-sql-block-1 a {
-    color: rgb(109, 207, 246)
+    color: rgb(75, 130, 191)
 }
 
 .block-views-blockld-display-for-digital-objects-sql-block-1 a:hover {
@@ -588,19 +588,19 @@ p.lead-bottom {
 }
 
 .progress-step.is-active .progress-marker {
-    background-color: rgb(109, 207, 246)
+    background-color: rgb(235, 141, 0)
 }
 
 .webform-progress-tracker .progress-step.is-complete .progress-marker {
-    background-color: rgba(40, 167, 115, 0.3);
+    background-color: rgba(75, 130, 191, 0.3);
 }
 
 .webform-progress-tracker .progress-step.is-complete:hover .progress-marker {
-    background-color: rgba(40, 167, 115, 0.6);
+    background-color: rgba(75, 130, 191, 0.6);
 }
 
 .webform-progress-tracker .progress-step.is-active:hover .progress-marker {
-    background-color: rgb(109, 207, 246)
+    background-color: rgb(75, 130, 191)
 }
 
 .webform-actions .webform-button--next {
@@ -608,7 +608,7 @@ p.lead-bottom {
 }
 
 .webform-button--submit {
-    background-color: rgb(109, 207, 246)
+    background-color: rgb(75, 130, 191)
 }
 
 .webform-button--preview {
@@ -616,12 +616,12 @@ p.lead-bottom {
 }
 
 .webform-progress .progress-title[role="link"] {
-    color: rgb(109, 207, 246)
+    color: rgb(75, 130, 191)
 }
 
 .webform-progress .progress-title[role="link"]:hover, .webform-progress .progress-title[role="link"]:focus {
     text-decoration: underline;
-    color: rgb(109, 207, 246)
+    color: rgb(75, 130, 191)
 }
 
 
