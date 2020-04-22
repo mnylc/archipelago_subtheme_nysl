@@ -43,7 +43,7 @@ $info = [
         'text' => '#3b3b3b',
         'navbar_link' => '#b3ffe0',
         'navbar_background' => '#000000',
-        'navbar_secondary' => '#2B3A51',
+        'navbar_secondary' => '#2b3951',
         'link' => '#0071b3',
         'base' => '#4b82bf',
       ],
