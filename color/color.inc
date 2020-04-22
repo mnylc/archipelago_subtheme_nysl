@@ -7,7 +7,11 @@
 
 $info = [
   // Available colors and color labels used in theme.
-  'fields' => [
+  'fields' => [   
+    'body' => 'Main Body Color',
+    'navbar_link' => 'Navigation Bar Link'
+    'navbar_background' => 'Navigation Bar Background Color',
+    'navbar_secondary' => 'Secondary navigation Bar Background Color', 
     'top' => t('Header background top'),
     'bottom' => t('Header background bottom'),
     'bg' => t('Main background'),
@@ -24,11 +28,12 @@ $info = [
   // Pre-defined color schemes.
   'schemes' => [
     'default' => [
-      'title' => t('Blue Lagoon (default)'),
+      'title' => t('Archipelago Default'),
       'colors' => [
         'top' => '#055a8e',
         'bottom' => '#1d84c3',
         'bg' => '#ffffff',
+        'body' => '#f2f2f2',
         'sidebar' => '#f6f6f2',
         'sidebarborders' => '#f9f9f9',
         'footer' => '#292929',
@@ -36,80 +41,14 @@ $info = [
         'buttonhover' => '#0256b1',
         'titleslogan' => '#fffeff',
         'text' => '#3b3b3b',
+        'navbar_link' => '#b3ffe0'
+        'navbar_background' => '#00000',
+        'navbar_secondary' => '#2B3A51',
         'link' => '#0071b3',
-        'base' => '#0071b3',
+        'base' => '#4b82bf,
       ],
-    ],
-    'firehouse' => [
-      'title' => t('Firehouse'),
-      'colors' => [
-        'top' => '#cd2d2d',
-        'bottom' => '#d64e4e',
-        'bg' => '#ffffff',
-        'sidebar' => '#f1f4f0',
-        'sidebarborders' => '#ededed',
-        'footer' => '#1f1d1c',
-        'button' => '#d6121f',
-        'buttonhover' => '#a90f19',
-        'titleslogan' => '#fffeff',
-        'text' => '#888888',
-        'link' => '#d6121f',
-        'base' => '#0071b3',
-      ],
-    ],
-    'ice' => [
-      'title' => t('Ice'),
-      'colors' => [
-        'top' => '#d0d0d0',
-        'bottom' => '#c2c4c5',
-        'bg' => '#ffffff',
-        'sidebar' => '#ffffff',
-        'sidebarborders' => '#cccccc',
-        'footer' => '#016b83',
-        'button' => '#019dbf',
-        'buttonhover' => '#016c83',
-        'titleslogan' => '#000000',
-        'text' => '#4a4a4a',
-        'link' => '#019dbf',
-        'base' => '#0071b3',
-      ],
-    ],
-    'plum' => [
-      'title' => t('Plum'),
-      'colors' => [
-        'top' => '#4c1c58',
-        'bottom' => '#593662',
-        'bg' => '#fffdf7',
-        'sidebar' => '#edede7',
-        'sidebarborders' => '#e7e7e7',
-        'footer' => '#2c2c28',
-        'button' => '#9d408d',
-        'buttonhover' => '#77316b',
-        'titleslogan' => '#ffffff',
-        'text' => '#301313',
-        'link' => '#9d408d',
-        'base' => '#0071b3',
-      ],
-    ],
-    'slate' => [
-      'title' => t('Slate'),
-      'colors' => [
-        'top' => '#4a4a4a',
-        'bottom' => '#4e4e4e',
-        'bg' => '#ffffff',
-        'sidebar' => '#ffffff',
-        'sidebarborders' => '#d0d0d0',
-        'footer' => '#161617',
-        'button' => '#0073b6',
-        'buttonhover' => '#00517f',
-        'titleslogan' => '#ffffff',
-        'text' => '#3b3b3b',
-        'link' => '#0073b6',
-        'base' => '#0071b3',
-      ],
-    ],
+    ], 
   ],
-
   // CSS files (excluding @import) to rewrite with new color scheme.
   'css' => [
     'css/colors.css',
