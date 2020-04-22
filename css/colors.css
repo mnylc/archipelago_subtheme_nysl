@@ -17,16 +17,16 @@ body {
 }
 
 .tabs ul.primary li.is-active a {
-    background-color: #fff;
-    border-bottom-color: #fff;
+    background-color: #ffffff;
+    border-bottom-color: #ffffff;
 }
 
 #navbar-top {
-    background-color: black;
+    background-color: #000000;
 }
 
 #navbar-main {
-    background-color:rgb(43,58,81);
+    background-color: #2B3A51;
 }
 
 
@@ -48,16 +48,16 @@ body {
 
 
 .nav-link:hover, .nav-link:focus {
-    color: white;
+    color: #ffffff;
 }
 
 
 a,
 .link {
-    color: rgb(75, 130, 191)
+    color: #4b82bf;
 }
-a{
-    color: rgb(75, 130, 191)
+a {
+    color: #4b82bf;
 }
 
 
@@ -65,7 +65,7 @@ a:hover,
 a:focus,
 .link:hover,
 .link:focus {
-    color: rgb(75, 130, 191);
+    color: #4b82bf;
     decoration:none;
 }
 
