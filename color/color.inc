@@ -45,7 +45,7 @@ $info = [
         'navbar_background' => '#00000',
         'navbar_secondary' => '#2B3A51',
         'link' => '#0071b3',
-        'base' => '#4b82bf,
+        'base' => '#4b82bf',
       ],
     ], 
   ],
