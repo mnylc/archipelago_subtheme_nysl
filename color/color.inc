@@ -8,10 +8,10 @@
 $info = [
   // Available colors and color labels used in theme.
   'fields' => [   
-    'body' => 'Main Body Color',
-    'navbar_link' => 'Navigation Bar Link',
-    'navbar_background' => 'Navigation Bar Background Color',
-    'navbar_secondary' => 'Secondary navigation Bar Background Color', 
+    'body' => t('Main Body Color'),
+    'navbar_link' => t('Navigation Bar Link'),
+    'navbar_background' => t('Navigation Bar Background Color'),
+    'navbar_secondary' => t('Secondary navigation Bar Background Color'), 
     'top' => t('Header background top'),
     'bottom' => t('Header background bottom'),
     'bg' => t('Main background'),
