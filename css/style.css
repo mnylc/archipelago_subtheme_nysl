@@ -32,13 +32,6 @@ section.region-top-header-form {
     border-radius: .25rem;
 }
 
-/* Node edit buttons */
-#edit-submit {
-  background-color: rgb(10,140,125);
-}
-#edit-preview {
-  background-color: rgba(40, 167, 115, 0.3);
-}
 /* Exposed Solr Search Form */
 
 #views-exposed-form-solr-search-content-page-1 label {
