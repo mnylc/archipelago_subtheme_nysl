@@ -495,8 +495,9 @@ p.lead-bottom {
     width: 100%;
     background-color: rgb(7,21,8);
     bottom: 0;
-    height: 250px;
-    padding: 2rem 2rem;
+    min-height: 250px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .site-footer .block {

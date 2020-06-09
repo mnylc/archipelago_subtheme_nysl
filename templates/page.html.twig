@@ -114,12 +114,9 @@
     </nav>
     {{ page.editor_toolbar }}
 {% endblock %}
-
 {% block content %}
         <div id="main" class="{{ container }}">
-
           {{ page.breadcrumb }}
-
           <div class="row row-offcanvas row-offcanvas-left clearfix">
 
               <main{{ content_attributes }}>
@@ -146,21 +143,6 @@
           </div>
         </div>
 {% endblock %}
-
 {% block footer %}
-        <div class="{{ container }}">
-          {% if page.footer_first or page.footer_second or page.footer_third or page.footer_fourth %}
-            <div class="site-footer__top clearfix">
-              {{ page.footer_first }}
-              {{ page.footer_second }}
-              {{ page.footer_third }}
-              {{ page.footer_fourth }}
-            </div>
-          {% endif %}
-          {% if page.footer_fifth %}
-            <div class="site-footer__bottom">
-              {{ page.footer_fifth }}
-            </div>
-          {% endif %}
-        </div>
+    {% include directory ~ '/templates/includes/footer.html.twig' %}
 {% endblock %}
