@@ -111,7 +111,7 @@ a:active,
   background-color: #0a8c7d;
 }
 
-.dropdown-item.active {
+.dropdown-item.active, .dropdown-item:active {
     background-color: #007bff
 }
 
