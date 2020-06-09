@@ -111,6 +111,10 @@ a:active,
   background-color: #0a8c7d;
 }
 
+.dropdown-item.active {
+    background-color: #007bff
+}
+
 .region-header,
 .region-header a,
 .region-header li a.is-active,
