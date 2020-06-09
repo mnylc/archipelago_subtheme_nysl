@@ -1,0 +1,81 @@
+/**
+ * @file
+ * Subtheme Wenform specific CSS.
+ */
+/* webforms */
+
+
+
+
+.block-help {
+    border-color: #fff;
+}
+
+.custom-form-input-heading,
+.field--name-moderation-state label,
+.node-type-list a {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 8px;
+}
+
+.node-digital-object-collection-form .field--type-strawberryfield-field .fieldset-legend {
+    font-weight: bold;
+    font-size: .8em;
+}
+
+.node-type-list dt {
+    margin-top: 1rem;
+}
+
+.webform-progress-tracker {
+    margin-left: 0.85rem;
+}
+
+[data-drupal-selector="edit-content"] .form-group {
+    padding-left:0 !important;
+    padding-right:0 !important;
+}
+
+[data-drupal-selector="edit-content"] > .form-group {
+    padding-left:1rem !important;
+    padding-right:1rem !important;
+
+}
+[data-drupal-selector="edit-footer"] {
+    padding-left:0 !important;
+    padding-right:0 !important;
+}
+
+[data-drupal-selector="edit-footer"] .form-group {
+    padding-left:0 !important;
+    padding-right:0 !important;
+}
+
+[data-drupal-selector="edit-footer"] > .form-group {
+    padding-left:1rem !important;
+    padding-right:1rem !important;
+}
+
+
+.webform-ajax-form-wrapper .fieldset-wrapper .form-actions {
+    margin-left: 1rem;
+}
+
+/* Because of the order of loading Bootstrap and Jquery UI, there is a known issue with the titlebar-close button styles */
+/* Rather than reorder JS loading introducing possible bugs, manually load the jquery-ui "X" icon (icon sheet downloaded from Jquery UI) */
+/* This overrides the Jquery UI styles loaded by webform module */
+.ui-dialog-titlebar-close {
+    padding:0 !important;
+}
+
+.ui-dialog-titlebar-close:after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-image: url(../img/ui-icons_888888_256x240.png);
+    /* position of the "X" in the icon sheet */
+    background-position: -95px -128px;
+    background-repeat: no-repeat;
+}

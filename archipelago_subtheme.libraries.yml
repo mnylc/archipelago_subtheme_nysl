@@ -7,6 +7,7 @@ global-styling:
       css/style.css: {}
       css/colors.css: {}
       css/custom.css: {}
+      css/webform.css: {}
 bootstrap:
   js:
     /libraries/popper/popper.min.js: {}
