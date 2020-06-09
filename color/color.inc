@@ -18,12 +18,14 @@ $info = [
     'sidebar' => t('Sidebar background'),
     'sidebarborders' => t('Sidebar borders'),
     'footer' => t('Footer background'),
-    'button' => t('Primary button background'),
+    'button' => t('Primary buttons on Webforms background'),
+    'buttonprimary' =>  t('Primary buttons and active items'),
     'buttonhover' => t('Primary button hover'),
     'titleslogan' => t('Title and slogan'),
     'text' => t('Text color'),
     'link' => t('Link color'),
     'base' => t('Base color'),
+
   ],
   // Pre-defined color schemes.
   'schemes' => [
@@ -46,6 +48,7 @@ $info = [
         'navbar_secondary' => '#2b3951',
         'link' => '#0071b3',
         'base' => '#4b82bf',
+        'buttonprimary' => '#007bff'
       ],
     ], 
   ],
