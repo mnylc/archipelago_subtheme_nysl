@@ -82,15 +82,6 @@ section.region-top-header-form {
   transition: all 0.5s;
 }
 
-#edit-submit-solr-search-content{
-  padding:.5rem;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  border-radius: 7px;
-  background-color: orange;
-  color: white;
-}
-
 .js fieldset.form-type-search-api-autocomplete input.form-autocomplete:focus {
     background-image: url(../../../../core/misc/throbber-inactive.png);
 }

@@ -29,7 +29,14 @@ body {
     background-color: #2b3951;
 }
 
-
+#edit-submit-solr-search-content{
+    padding:.5rem;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    background-color: #ffa500;
+    color: #F7F7F7;
+}
 
 .navbar-dark .navbar-nav .nav-link {
     color: #b3ffe0;

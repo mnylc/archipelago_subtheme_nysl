@@ -23,6 +23,8 @@ $info = [
     'buttonhover' => t('Primary button hover'),
     'titleslogan' => t('Title and slogan'),
     'text' => t('Text color'),
+    'textoverdark' => t('Text color over dark'),
+    'searchbutton' => t('Search Button'),
     'link' => t('Link color'),
     'base' => t('Base color'),
 
@@ -48,7 +50,9 @@ $info = [
         'navbar_secondary' => '#2b3951',
         'link' => '#0071b3',
         'base' => '#4b82bf',
-        'buttonprimary' => '#007bff'
+        'buttonprimary' => '#007bff',
+        'textoverdark' => '#f7f7f7',
+        'searchbutton' => '#ffa500',
       ],
     ], 
   ],
