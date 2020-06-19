@@ -14,6 +14,7 @@ body.path-frontpage {
     margin-bottom: 0px;
 }
 
+
 .path-frontpage .feed-icons {
     display: none;
 }
@@ -226,6 +227,18 @@ pre code {
     position: relative;
     margin-right: 5px;
 }
+
+
+/* This hides Sort and Items per page from a very specific search block in the front page*/
+.path-frontpage #block-searchblockcenterfrontpage .form-item-sort-by {
+    display:none
+}
+
+.path-frontpage #block-searchblockcenterfrontpage .form-item-items-per-page {
+    display:none
+}
+
+
 
 /** END search box **/
 
