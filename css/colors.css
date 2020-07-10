@@ -38,6 +38,17 @@ body {
     color: #f7f7f7;
 }
 
+#edit-submit-solr-search-content{
+    padding:.5rem;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    background-color: #ffa500;
+    color: #f7f7f7;
+}
+
+
+
 .navbar-dark .navbar-nav .nav-link {
     color: #b3ffe0;
 }
@@ -100,6 +111,11 @@ a:active,
     background-color: #007bff;
     border-color: #007bff;
 }
+
+.btn-outline-primary {
+    border-color: #007bff;
+}
+
 
 .btn-primary:hover,
 .btn-primary:focus {

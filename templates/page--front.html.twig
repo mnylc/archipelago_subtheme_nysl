@@ -115,7 +115,7 @@
     {{ page.editor_toolbar }}
 {% endblock %}
 {% block content %}
-   <div id="main" class="{{ container }}">
+    <div id="main" class="{{ container }}">
           {{ page.breadcrumb }}
           <div class="row row-offcanvas row-offcanvas-left clearfix">
               <main{{ content_attributes }}>
@@ -125,7 +125,7 @@
                 </section>
               </main>
           </div>
-        </div>
+    </div>
 {% endblock %}
 {% block featured_bottom %}
     {% if page.featured_bottom_first or page.featured_bottom_second or page.featured_bottom_third %}
