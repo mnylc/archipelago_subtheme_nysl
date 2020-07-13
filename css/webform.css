@@ -96,7 +96,7 @@
     border-spacing: 0;
 }
 /* This resets the internal borders first */
-.webform-multiple-table table th, webform-multiple-table table td {
+.webform-multiple-table table tr th, webform-multiple-table table tr td {
     border-left:none !important;
     border-right:none !important;
 }
