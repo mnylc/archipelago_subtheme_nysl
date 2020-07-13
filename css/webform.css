@@ -182,15 +182,10 @@
     white-space: nowrap;
     line-height: 1.125rem;
 }
-.ajax-progress throbber {
+.ajax-progress .throbber, .ajax-progress-throbber .throbber {
     display: inline-block !important;
     width:20px;
 }
-
-/**
- * Remove margin from ajax throbbers following buttons because buttons already
- * have a large margin set.
- */
 
 .js .button:not(.js-hide) + .ajax-progress--throbber {
     margin-left: 0; /* LTR */
