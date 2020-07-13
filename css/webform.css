@@ -97,8 +97,8 @@
 }
 /* This resets the internal borders first */
 .webform-multiple-table table tr th, .webform-multiple-table table tr td {
-    border-left:none !important;
-    border-right:none !important;
+    border-left:none ;
+    border-right:none ;
 }
 
 .webform-multiple-table table tr th {
@@ -111,11 +111,11 @@
 }
 
 .webform-multiple-table table tr th:last-child {
-    border-right: 1px solid #bbb;
+    border-right: 1px solid #bbb !important;
 }
 
 .webform-multiple-table table tr td:last-child {
-    border-right: 1px solid #bbb;
+    border-right: 1px solid #bbb !important;
 }
 
 .webform-multiple-table table tr:last-child td {
@@ -128,7 +128,7 @@
 }
 .webform-multiple-table table tr th:first-child,
 .webform-multiple-table table tr td:first-child {
-    border-left: 1px solid #bbb;
+    border-left: 1px solid #bbb !important;
 }
 
 /* top-left border-radius */
