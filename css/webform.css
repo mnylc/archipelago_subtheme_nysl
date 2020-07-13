@@ -150,3 +150,48 @@
 .webform-multiple-table table tr:last-child td:last-child {
     border-bottom-right-radius: 6px;
 }
+
+/* ajax and throbbers */
+
+
+.ajax-progress {
+    display: inline-block;
+}
+
+/**
+ * Progress bar.
+ */
+
+.ajax-progress-bar {
+    width: 13em;
+    padding: 0 0.3125rem; /* 0 5px */
+}
+
+/**
+ * Throbber.
+ */
+
+.ajax-progress--throbber {
+    position: relative;
+    display: inline-flex;
+    align-content: center;
+    height: 1.125rem;
+    margin: -3px 0.75rem 0;
+    vertical-align: middle;
+    white-space: nowrap;
+    line-height: 1.125rem;
+}
+
+/**
+ * Remove margin from ajax throbbers following buttons because buttons already
+ * have a large margin set.
+ */
+
+.js .button:not(.js-hide) + .ajax-progress--throbber {
+    margin-left: 0; /* LTR */
+}
+
+[dir="rtl"].js .button:not(.js-hide) + .ajax-progress--throbber {
+    margin-right: 0;
+    margin-left: 0.75rem;
+}
