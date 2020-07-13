@@ -95,6 +95,12 @@
     border-collapse: separate;
     border-spacing: 0;
 }
+/* This resets the internal borders first */
+.webform-multiple-table table th, webform-multiple-table table td {
+    border-left:none !important;
+    border-right:none !important;
+}
+
 
 .webform-multiple-table table tr th {
     background: #eee;
