@@ -1,9 +1,10 @@
 name: Archipelago Base Theme
 type: theme
 description: 'Achipelago Bootstrap Theme.'
-# version: VERSION
-# core: 8.x
+core: 8.x
+core_version_requirement: ^8 || ^9
 base theme: bootstrap_barrio
+project: 'Archipelago'
 
 libraries:
   - archipelago_subtheme/bootstrap_cdn
@@ -35,5 +36,4 @@ regions:
   footer_fourth: 'Footer fourth'
   footer_fifth: 'Footer fifth'
 
-core: '8.x'
-project: 'Archipelago'
+
