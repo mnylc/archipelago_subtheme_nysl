@@ -5,8 +5,6 @@
 /* webforms */
 
 
-
-
 .block-help {
     border-color: #fff;
 }
@@ -78,4 +76,67 @@
     /* position of the "X" in the icon sheet */
     background-position: -95px -128px;
     background-repeat: no-repeat;
+}
+
+/* bootstrap override for /core/modules/system/css/components/container-inline.module.css?qdeuar */
+
+.container-inline div, .container-inline label {
+    display: inline-flex !important;
+}
+
+/* plus and minus signs in the tables for composite multiple elements */
+.webform-multiple-table td input[type="image"] + input[type="image"] {
+    margin-left: 0px !important;
+}
+
+/* tables
+ */
+
+.webform-multiple-table table {margin:30px; border-radius: 6px}
+.webform-multiple-table table {
+    border-collapse: separate;
+    border-spacing: 0;
+    min-width: 350px;
+
+}
+.webform-multiple-table table tr th,
+.webform-multiple-table table tr td {
+    border-right: 1px solid #bbb;
+    border-bottom: 1px solid #bbb;
+    padding: 5px;
+}
+.webform-multiple-table table tr th:first-child, table tr th:last-child{
+    border-top:solid 1px      #bbb;}
+.webform-multiple-table table tr th:first-child,
+.webform-multiple-table table tr td:first-child {
+    border-left: 1px solid #bbb;
+
+}
+.webform-multiple-table table tr th:first-child,
+.webform-multiple-table table tr td:first-child {
+    border-left: 1px solid #bbb;
+}
+.webform-multiple-table table tr th {
+    background: #eee;
+    text-align: left;
+}
+
+/* top-left border-radius */
+.webform-multiple-table table tr:first-child th:first-child {
+    border-top-left-radius: 6px;
+}
+
+/* top-right border-radius */
+.webform-multiple-table table tr:first-child th:last-child {
+    border-top-right-radius: 6px;
+}
+
+/* bottom-left border-radius */
+.webform-multiple-table table tr:last-child td:first-child {
+    border-bottom-left-radius: 6px;
+}
+
+/* bottom-right border-radius */
+.webform-multiple-table table tr:last-child td:last-child {
+    border-bottom-right-radius: 6px;
 }
