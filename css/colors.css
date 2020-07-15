@@ -23,6 +23,9 @@ body {
 
 #navbar-top {
     background-color: #000000;
+    background-image: url(../img/just-waves.png);
+    background-repeat: repeat;
+    background-blend-mode: multiply;
 }
 
 #navbar-main {
@@ -36,17 +39,36 @@ body {
     -moz-border-radius: 7px;
     border-radius: 7px;
     background-color: #ffa500;
-    color: #f7f7f7;
+    border-color: #ffa500;
+    color: #4b82bf;
 }
 
+#views-exposed-form-solr-search-content-page-1:focus-within fieldset.form-type-search-api-autocomplete input {
+
+    border: solid 1px #b3ffe0;
+
+}
 
 .navbar-dark .navbar-nav .nav-link {
     color: #b3ffe0;
 }
-
+.site-name-slogan .navbar-brand-slogan {
+    padding-left: 1.25rem;
+    color: #f2f2f2;
+}
 
 #navbar-main .nav-link {
     color: #b3ffe0;
+}
+
+.btn-warning {
+    background-color: #ffa500;
+    border-color: #ffa500;
+}
+
+.btn-warning:hover {
+    background-color: #007bff;
+    border-color: #007bff;
 }
 
 .navbar-toggler {
@@ -59,7 +81,9 @@ body {
 .nav-link:hover, .nav-link:focus {
     color: #ffffff;
 }
-
+.nav-tabs .nav-link:hover, .nav-link:focus {
+    color: #4b82bf;
+}
 
 a,
 .link {
@@ -96,11 +120,33 @@ a:active,
 .sidebar .block {
     background-color: #f6f6f2;
     border-color: #f9f9f9;
+    border-radius: 6px;
+}
+
+details summary {
+    background-color: #f6f6f2;
+    border-color: #f9f9f9;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+.sidebar h2 {
+    margin: 0 0 0.5em;
+    border-bottom: none;
+    padding-bottom: 5px;
+    text-shadow: 0 1px 0 #fff;
+    font-size: 1.2em;
+    line-height: 1.2;
 }
 
 .btn-primary {
     background-color: #007bff;
     border-color: #007bff;
+}
+
+.ui-slider-pips [class*=ui-slider-pip-selected] {
+    border-color: #007bff;
+    color: #007bff;
 }
 
 .btn-outline-primary {
@@ -115,6 +161,9 @@ a:active,
 
 .site-footer {
     background: #f2f2f2;
+    background-image: url(../img/what-the-hex.png);
+    background-repeat: repeat;
+    background-blend-mode: multiply;
 }
 
 /* Node edit buttons */

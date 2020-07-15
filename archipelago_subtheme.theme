@@ -29,6 +29,29 @@ function archipelago_subtheme_form_system_theme_settings_alter(&$form, FormState
       'bg-white' => t('White'),
       'bg-transparent' => t('Transparent'),
   );
+  $form['fonts']['fonts']['bootstrap_barrio_google_fonts'] = [
+    '#type' => 'select',
+    '#title' => t('Google Fonts combination'),
+    '#default_value' => theme_get_setting('bootstrap_barrio_google_fonts'),
+    '#empty_option' => t('None'),
+    '#options' => [
+      'roboto' => t('Roboto Condensed, Roboto'),
+      'monserrat_lato' => t('Monserrat, Lato'),
+      'alegreya_roboto' => t('Alegreya, Roboto Condensed, Roboto'),
+      'dancing_garamond' => t('Dancing Script, EB Garamond'),
+      'amatic_josefin' => t('Amatic SC, Josefin Sans'),
+      'oswald_droid' => t('Oswald, Droid Serif'),
+      'playfair_alice' => t('Playfair Display, Alice'),
+      'dosis_opensans' => t('Dosis, Open Sans'),
+      'lato_hotel' => t('Lato, Grand Hotel'),
+      'medula_abel' => t('Medula One, Abel'),
+      'fjalla_cantarell' => t('Fjalla One, Cantarell'),
+      'coustard_leckerli' => t('Coustard Ultra, Leckerli One'),
+      'philosopher_muli' => t('Philosopher, Muli'),
+      'vollkorn_exo' => t('Vollkorn, Exo'),
+      'robot_cabin' => t('Roboto Condensed, Cabin'),
+    ],
+  ];
 }
 
 function archipelago_subtheme_form_views_exposed_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
@@ -73,4 +96,10 @@ function archipelago_subtheme_preprocess_page(&$variables) {
 
  /* @var Attribute $variables['navbar_top_attributes'] */
   $variables['navbar_top_attributes']->addClass($expand_class);
+
+  $fonts = theme_get_setting('bootstrap_barrio_google_fonts');
+  if ($fonts) {
+    $variables['#attached']['library'][] = 'archipelago_subtheme/' . $fonts;
+  }
+
 }

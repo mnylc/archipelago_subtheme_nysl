@@ -19,9 +19,6 @@ body.path-frontpage {
     display: none;
 }
 
-h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a {
-    font-family: 'Mukta', sans-serif;
-}
 
 .content {
     margin-bottom: 2rem;
@@ -72,6 +69,11 @@ pre code {
     padding-left: 1.25rem;
     font-weight: 100;
 }
+
+.site-name-slogan .navbar-brand-slogan {
+    padding-left: 1.25rem;
+}
+
 
 .nav.navbar-nav {
     padding-top: .3125rem;
@@ -436,20 +438,6 @@ p.lead-bottom {
     color: #33334d;
 }
 
-.btn-primary,
-.button--primary {
-    background-color:rgb(217, 120, 68);
-    border-color: rgb(217, 120, 68);
-    color: #fff;
-}
-
-.btn-primary:hover,
-.button--primary:hover {
-    color: #000;
-    background-color: #b3c6ff;
-    border-color: #b3c6ff;
-}
-
 #strawberryfield h1,
 .front-section h1 {
     font-weight: bold;
@@ -477,33 +465,6 @@ p.lead-bottom {
 
 .purple {
     background-color: #d1d1e0;
-}
-
-/**linked data, sidebars in general**/
-
-.sidebar .block {
-    background-color: #f2f2f2;
-}
-
-.sidebar .block.block-views-blockld-display-for-digital-objects-sql-block-1 {
-    border: 1px solid #e6e6e6;
-}
-
-.block-views-blockld-display-for-digital-objects-sql-block-1 {
-    color: #333333;
-}
-
-.block-views-blockld-display-for-digital-objects-sql-block-1 h2 {
-    text-shadow: none;
-    font-size: 1.2em;
-}
-
-.block-views-blockld-display-for-digital-objects-sql-block-1 a {
-    color: rgb(75, 130, 191)
-}
-
-.block-views-blockld-display-for-digital-objects-sql-block-1 a:hover {
-    color: #4b82bf;
 }
 
 /**site footer**/
@@ -595,6 +556,13 @@ div#sidebar_second.sidebar.col-md-3.order-last:empty {
 
 .carousel.slide {
     background-color: rgba(31,31,33,0.9);
+    border-radius: 6px;
+    box-shadow: 0 10px 40px -10px rgba(0,64,128,.2);
+    transition: box-shadow .3s;
+}
+
+.carousel-inner {
+    border-radius: 6px;
 }
 
 .carousel-inner .active {
@@ -602,12 +570,12 @@ div#sidebar_second.sidebar.col-md-3.order-last:empty {
    filter: alpha(opacity=90); /* For IE 8 & 9 */
 }
 .carousel-control-prev-icon {
-    width:2.5em;
-    height:2.5em;
+    width:3em;
+    height:3em;
     background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129" xmlns:xlink="http://www.w3.org/1999/xlink"><path stroke="black" stroke-width="2" stroke-linecap="round" d="m88.6,121.3c0.8,0.8 1.8,1.2 2.9,1.2s2.1-0.4 2.9-1.2c1.6-1.6 1.6-4.2 0-5.8l-51-51 51-51c1.6-1.6 1.6-4.2 0-5.8s-4.2-1.6-5.8,0l-54,53.9c-1.6,1.6-1.6,4.2 0,5.8l54,53.9z"></path></svg>');
 }
 .carousel-control-next-icon {
-    width:2.5em;
-    height:2.5em;
+    width:3em;
+    height:3em;
     background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129" xmlns:xlink="http://www.w3.org/1999/xlink"><path stroke="black" stroke-width="2" stroke-linecap="round" d="m40.4,121.3c-0.8,0.8-1.8,1.2-2.9,1.2s-2.1-0.4-2.9-1.2c-1.6-1.6-1.6-4.2 0-5.8l51-51-51-51c-1.6-1.6-1.6-4.2 0-5.8 1.6-1.6 4.2-1.6 5.8,0l53.9,53.9c1.6,1.6 1.6,4.2 0,5.8l-53.9,53.9z"></path></svg>');
 }
