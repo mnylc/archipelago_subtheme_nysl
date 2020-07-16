@@ -532,6 +532,11 @@ p.lead-bottom {
     text-shadow: 0 1px 0 #fff;
     font-size: 1.071em;
     line-height: 1.2;
+    border-bottom: 1px solid rgba(165, 165, 165, 0.3);
+}
+
+div.view-content.row-bootstrap4.container > div:last-child .layout--twocol {
+    border-bottom: none !important;
 }
 
 /* node edit */
