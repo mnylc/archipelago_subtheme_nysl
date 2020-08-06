@@ -115,7 +115,13 @@
     {{ page.editor_toolbar }}
 {% endblock %}
 {% block content %}
-        <div id="main" class="{{ container }}">
+       {% if node.gettype == 'article' or node.gettype == 'page' %}
+         {% set content_container = 'container' %}
+       {% else %}
+         {% set content_container = container  %}
+       {% endif %}
+        <div id="main" class="{{ content_container }}">
+
           {{ page.breadcrumb }}
           <div class="row row-offcanvas row-offcanvas-left clearfix">
 
