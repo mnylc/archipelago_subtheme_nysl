@@ -30,7 +30,7 @@ body {
 }
 
 
-.views-exposed-form form[action="/search"] div[data-drupal-selector="edit-actions"] > button[value="Search"], , #edit-submit-solr-search-content, #edit-submit-solr-search-content--1, #edit-submit-solr-search-content--2  {
+.views-exposed-form form[action="/search"] div[data-drupal-selector="edit-actions"] > button[value="Search"], #edit-submit-solr-search-content, #edit-submit-solr-search-content--1, #edit-submit-solr-search-content--2  {
     padding: .5rem;
     -webkit-border-radius: 7px;
     -moz-border-radius: 7px;
@@ -39,6 +39,8 @@ body {
     border-color: #ffa500;
     color: #b3ffe0;
 }
+
+
 
 #views-exposed-form-solr-search-content-page-1:focus-within fieldset.form-type-search-api-autocomplete input {
 
