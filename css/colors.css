@@ -160,6 +160,11 @@ details summary {
     background: #f2f2f2;
 }
 
+.site-footer .content, .site-footer .content button  {
+     color: #b3ffe0 !important;
+}
+
+
 /* Node edit buttons */
 #edit-submit {
   background-color: #0a8c7d;
