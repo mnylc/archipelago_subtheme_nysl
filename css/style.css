@@ -95,6 +95,13 @@ section.region-top-header-form {
   flex-direction:  column;
 }
 
+
+#navbar-main nav {
+  padding-left: 1rem;
+}
+
+
+
 /* Content */
 .layout--onecol {
   -webkit-flex-direction: row;  /* Safari */
