@@ -1,6 +1,6 @@
-name: Archipelago Base Theme
+name: Archipelago Base Theme for NYSL
 type: theme
-description: 'Achipelago Bootstrap Theme.'
+description: 'Achipelago Bootstrap Theme with Custom Goodies for Nice folks of NYSL'
 core: 8.x
 core_version_requirement: ^8 || ^9
 base theme: bootstrap_barrio
