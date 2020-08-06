@@ -1,9 +1,9 @@
 {
-    "name": "archipelago/archipelago_subtheme",
-    "description": "Bare Bone Bootstrap4 to be further extended by nice people",
+    "name": "mnylc/archipelago_subtheme_nysl",
+    "description": "Bare Bone Bootstrap4 based on https://github.com/esmero/archipelago_subtheme",
     "type": "drupal-theme",
     "license": "GPL-2.0+",
-    "homepage": "https://github.com/esmero/archipelago_subtheme",
+    "homepage": "https://github.com/mnylc/archipelago_subtheme_nysl",
     "authors": [
         {
             "name": "Diego Pino Navarro",

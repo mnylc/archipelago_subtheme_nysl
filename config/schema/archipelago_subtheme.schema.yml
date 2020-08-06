@@ -1,6 +1,6 @@
 # Schema for the configuration files of the Bootstrap Barrio Subtheme.
 
-archipelago_subtheme.settings:
+archipelago_subtheme_nysl.settings:
   type: theme_settings
   label: 'Archipelago Subtheme settings'
   mapping:

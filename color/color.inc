@@ -63,7 +63,7 @@ $info = [
   ],
 
   // Preview files.
-  'preview_library' => 'archipelago_subtheme/color.preview',
+  'preview_library' => 'archipelago_subtheme_nysl/color.preview',
   'preview_html' => 'color/preview.html',
 
   // Attachments.

@@ -7,9 +7,9 @@ base theme: bootstrap_barrio
 project: 'Archipelago'
 
 libraries:
-  - archipelago_subtheme/bootstrap_cdn
-  - archipelago_subtheme/global-styling
-  - archipelago_subtheme/fonts
+  - archipelago_subtheme_nysl/bootstrap_cdn
+  - archipelago_subtheme_nysl/global-styling
+  - archipelago_subtheme_nysl/fonts
 
 regions:
   top_header: 'Top Header'
