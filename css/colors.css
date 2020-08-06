@@ -23,9 +23,6 @@ body {
 
 #navbar-top {
     background-color: #000000;
-    background-image: url(../img/just-waves.png);
-    background-repeat: repeat;
-    background-blend-mode: multiply;
 }
 
 #navbar-main {
@@ -161,9 +158,6 @@ details summary {
 
 .site-footer {
     background: #f2f2f2;
-    background-image: url(../img/what-the-hex.png);
-    background-repeat: repeat;
-    background-blend-mode: multiply;
 }
 
 /* Node edit buttons */
