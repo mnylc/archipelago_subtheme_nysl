@@ -13,6 +13,6 @@
         }
     ],
     "require": {
-        "drupal/bootstrap_barrio": "^4.2"
+        "drupal/bootstrap_barrio": "^5"
     }
 }
